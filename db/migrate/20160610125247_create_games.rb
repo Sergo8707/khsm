@@ -1,3 +1,5 @@
+#  (c) goodprogrammer.ru
+#
 # Создаем игры
 class CreateGames < ActiveRecord::Migration
   def change

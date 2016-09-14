@@ -1,3 +1,5 @@
+#  (c) goodprogrammer.ru
+#
 # Создаем Игровые вопросы
 class CreateGameQuestions < ActiveRecord::Migration
   def change

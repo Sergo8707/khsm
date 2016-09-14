@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 4.2.6'
 
+# Удобная админка для управления любыми сущностями
+gem 'rails_admin'
+
 gem 'devise', '~> 4.1.1'
 gem 'devise-i18n'
 
@@ -18,6 +21,12 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
+
+  # Гем, который использует rspec, чтобы смотреть наш сайт
+  gem 'capybara'
+
+  # Гем, который позволяет смотреть, что видит capybara
+  gem 'launchy'
 end
 
 group :production do

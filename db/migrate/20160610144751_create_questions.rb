@@ -1,3 +1,5 @@
+#  (c) goodprogrammer.ru
+#
 # Создаем Вопросы
 class CreateQuestions < ActiveRecord::Migration
   def change
