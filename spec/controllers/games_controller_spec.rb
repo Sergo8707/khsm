@@ -181,7 +181,7 @@ RSpec.describe GamesController, type: :controller do
     end
 
     # тест на отработку подсказки"50/50"
-    it 'uses audience help' do
+    it 'uses 50/50 help' do
       # сперва проверяем что в подсказках текущего вопроса пусто
       expect(game_w_questions.current_game_question.help_hash[:fifty_fifty]).not_to be
       expect(game_w_questions.fifty_fifty_used).to be_falsey
