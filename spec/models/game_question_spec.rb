@@ -32,12 +32,6 @@ RSpec.describe GameQuestion, type: :model do
     # тесты на метод correct_answer_key
 
     it 'correct_answer_key' do
-
-      game_question.a = 2
-      game_question.b = 1
-      game_question.c = 4
-      game_question.d = 3
-
       expect(game_question.correct_answer_key).to eq('b')
     end
 
