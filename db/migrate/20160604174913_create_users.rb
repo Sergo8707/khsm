@@ -1,4 +1,3 @@
-
 # Создаем юзеров
 class CreateUsers < ActiveRecord::Migration
   def change
