@@ -1,6 +1,6 @@
 == Кто хочет стать миллионером?!
 
-Открыть игру - https://firstliam.herokuapp.com/
+Открыть игру - https://game-khsm.herokuapp.com/
 
 Игра для детей от 12 до 159 лет.
 
